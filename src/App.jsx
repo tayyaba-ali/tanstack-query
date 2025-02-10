@@ -1,16 +1,15 @@
-import React from "react";
-import "./index.css";
-import Todo from "./components/Todo";
-
+import React from 'react'
+import Navbar from './components/Navbar'
 
 
 const App = () => {
   return (
-    
-    <div> 
-      <Todo />
-    </div>
-  );
-};
+    <>
+      <Navbar />
 
-export default App;
+
+    </>
+  )
+}
+
+export default App
